@@ -1,4 +1,9 @@
+/* Google Fonts link import here....... */
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@400;600;700&family=Moon+Dance&family=Open+Sans:wght@300&family=PT+Serif&family=Roboto:ital,wght@0,700;1,300&family=Source+Serif+Pro:ital,wght@0,300;0,400;1,400&family=Spline+Sans&display=swap');
+
+/* Google Fonts link import here....... */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +36,18 @@ body {
 .primary-button:active {
     top: 5px;
     box-shadow: 0 2px 0 rgb(146, 13, 57);
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font: 40px;
+    border-bottom: 2px solid rgb(146, 13, 57);
+    display: inline-block;
+    margin: 50px 0;
+    text-transform: uppercase;
 }
 
 
@@ -122,4 +139,48 @@ nav {
 }
 
 
-/* Banner style start here...... */
+/* Banner style end here...... */
+
+
+/* Feature part css start here..... */
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-icon {
+    background-color: rgb(146, 13, 57);
+    width: 32px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.card h3 {
+    color: rgb(146, 13, 57);
+    font-size: 25px;
+}
+
+.card p {
+    margin: 10ox 0;
+    line-height: 1.5;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(146, 13, 57);
+}
+
+
+/* Feature part css end here..... */
